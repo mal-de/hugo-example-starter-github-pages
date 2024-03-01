@@ -5,9 +5,13 @@ This repository provides a simple starter template for creating a website using 
 ## Installation Process
 
 1. Open your terminal.
+1b. You may need to install the XCode Command Line Tools:
+   ```bash
+   xcode-select --install
+   ```
 2. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/hugo-example-starter-github-pages.git
+   git clone https://github.com/mal-de/hugo-example-starter-github-pages.git
    ```
 3. Change directory to the cloned repo:
    ```bash
@@ -17,6 +21,13 @@ This repository provides a simple starter template for creating a website using 
    ```bash
    ./setup.sh
    ```
+
+It could be that after installing Homebrew, brew is not found in the $PATH variable. The script will stop, since it won't find the brew command. Add brew to the $PATH variable and restart the ./setup.sh. Usually the post-installation process of Homebrew will tell you the exact commands, you need to use in the part called Next Steps.
+
+For example:
+- Run these two commands in your terminal to add Homebrew to your PATH:
+    (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/maliadessu/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
 
 ## File Structure
 
