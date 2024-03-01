@@ -4,20 +4,21 @@ This repository provides a simple starter template for creating a website using 
 
 ## Installation Process
 
+0. Install a code editor like [VS Code](https://code.visualstudio.com)
 1. Open your terminal.
-1b. You may need to install the XCode Command Line Tools:
+2. You may need to install the XCode Command Line Tools:
    ```bash
    xcode-select --install
    ```
-2. Clone the repository:
+3. Clone the repository:
    ```bash
    git clone https://github.com/mal-de/hugo-example-starter-github-pages.git
    ```
-3. Change directory to the cloned repo:
+4. Change directory to the cloned repo:
    ```bash
    cd hugo-example-starter-github-pages
    ```
-4. Run the setup script:
+5. Run the setup script:
    ```bash
    ./setup.sh
    ```
