@@ -1,6 +1,6 @@
 +++
-title = "Jane Doe"
-tagline = "Designer. Stylist. Nomad."
+title = "Hold your horses"
+tagline = "Welcome to Maliatopia"
 +++
 
-Test
+Discover my world

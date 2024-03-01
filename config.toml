@@ -1,6 +1,6 @@
 baseURL = "https://example.com"
 languageCode = "en-US"
-title = "Split - HTML Template Demo"
+title = "Maliatopia"
 disableKinds = ["section", "taxonomy", "term", "rss", "sitemap"]
 
 # Local preview mode
@@ -11,12 +11,6 @@ uglyURLs = true
 copyright = "&copy;2024 Your Name"
 
 [params]
-  # Metadata for search engines and social sharing
-  author = "Jenny Jones"
-  description = "Split is a centrally-divided layout for a professional online presence with a big image or video left with alongside content."
-  shareImage = "images/social.jpg"
-  twitterHandle = "onepagelove"
-
   # Favicon
   favicon = "favicon.ico"
 
@@ -26,66 +20,62 @@ copyright = "&copy;2024 Your Name"
     # Image
     [params.visual.image]
       enable = true
-      file = "images/background.jpg"
+      file = "images/20240301_115128.jpg"
       position = "center center"
 
     # Video
     [params.visual.video]
       enable = false
       mute = true
-      file = "videos/background.mp4"
+      file = "videos/Snapchat-64363206.mp4"
       # youtubeId = "dk9uNWPP7EA"
 
   # Links
   # Links List #1
   [[params.links]]
     [params.links.list1]
-      heading = "Header 1"
+      heading = "Study guides"
 
       [[params.links.list1.link]]
-        text = "Link 1"
-        url = "#"
-        new_tab = true # new tab
+        text = "Studyflix"
+        url = "https://studyflix.de/"
+      [[params.links.list1.link]]
+        text = "Serlo"
+        url = "https://de.serlo.org/"
 
       [[params.links.list1.link]]
-        text = "Link 2"
-        url = "#"
-        new_tab = false # Default, open at same tab
-
-      [[params.links.list1.link]]
-        text = "Link 3"
-        url = "#"
-
+        text = "simpleclub"
+        url = "https://simpleclub.com"
   # Links List #2
   [[params.links]]
     [params.links.list2]
-      heading = "Header 2"
+      heading = "Baking recepies"
 
       [[params.links.list2.link]]
-        text = "Link 1"
-        url = "#"
+        text = "Thesaltedsweets"
+        url = "https://thesaltedsweets.com/"
 
       [[params.links.list2.link]]
-        text = "Link 2"
-        url = "#"
+        text = "Cookiedoughdiary"
+        url = "https://thecookiedoughdiaries.com/"
 
       [[params.links.list2.link]]
-        text = "Link 3"
-        url = "#"
+        text = "Chahinez_tbt"
+        url = "https://lifestyleofafoodie.com/"
 
   # Links List #3
   [[params.links]]
     [params.links.list3]
-      heading = "Header 3"
+      heading = "Social media"
 
       [[params.links.list3.link]]
-        text = "Link One"
-        url = "#"
+        text = "Instagram"
+        url = "https://www.instagram.com/maliadessu?igsh=MTR5bzVnZmlvOGJt"
 
       [[params.links.list3.link]]
-        text = "Link Two"
-        url = "#"
+        text = "Tiktok"
+        url = "https://www.tiktok.com/@apparentlymalia?_t=8kHi2nNpdYG&_r=1"
 
       [[params.links.list3.link]]
-        text = "Link Three"
-        url = "#"
+        text = "Snapchat"
+        url = "https://www.snapchat.com/add/maliakaefra?sender_web_id=d4be3758-7f00-4fd1-80a2-6e6df29d63cc&device_type=desktop&is_copy_url=true"
